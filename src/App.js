@@ -1,23 +1,68 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import BackToTopButton from "./components/BackToTopButton";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="flex">
+      <BackToTopButton/>
+      <p>Welcome :)</p>
+      <p>
+        My name is <strong>Suat YARGICI</strong>
+      </p>
+      <div className="box">
+        lorem ipsum lor lorem lorem ipsum lor lorem lorem ipsum lor lorem lorem
+        ipsum lor lorem lorem ipsum lor lorem lorem ipsum lor lorem lorem ipsum
+        lor lorem lorem ipsum lor lorem lorem ipsum lor lorem lorem ipsum lor
+        lorem lorem ipsum lor lorem lorem ipsum lor lorem
+      </div>
+      <div className="box">
+        lorem ipsum lor lorem lorem ipsum lor lorem lorem ipsum lor lorem lorem
+        ipsum lor lorem lorem ipsum lor lorem lorem ipsum lor lorem lorem ipsum
+        lor lorem lorem ipsum lor lorem lorem ipsum lor lorem lorem ipsum lor
+        lorem lorem ipsum lor lorem lorem ipsum lor lorem
+      </div>
+      <div className="box">
+        lorem ipsum lor lorem lorem ipsum lor lorem lorem ipsum lor lorem lorem
+        ipsum lor lorem lorem ipsum lor lorem lorem ipsum lor lorem lorem ipsum
+        lor lorem lorem ipsum lor lorem lorem ipsum lor lorem lorem ipsum lor
+        lorem lorem ipsum lor lorem lorem ipsum lor lorem
+      </div>
+      <div className="box">
+        lorem ipsum lor lorem lorem ipsum lor lorem lorem ipsum lor lorem lorem
+        ipsum lor lorem lorem ipsum lor lorem lorem ipsum lor lorem lorem ipsum
+        lor lorem lorem ipsum lor lorem lorem ipsum lor lorem lorem ipsum lor
+        lorem lorem ipsum lor lorem lorem ipsum lor lorem
+      </div>
+      <div className="box">
+        lorem ipsum lor lorem lorem ipsum lor lorem lorem ipsum lor lorem lorem
+        ipsum lor lorem lorem ipsum lor lorem lorem ipsum lor lorem lorem ipsum
+        lor lorem lorem ipsum lor lorem lorem ipsum lor lorem lorem ipsum lor
+        lorem lorem ipsum lor lorem lorem ipsum lor lorem
+      </div>
+      <div className="box">
+        lorem ipsum lor lorem lorem ipsum lor lorem lorem ipsum lor lorem lorem
+        ipsum lor lorem lorem ipsum lor lorem lorem ipsum lor lorem lorem ipsum
+        lor lorem lorem ipsum lor lorem lorem ipsum lor lorem lorem ipsum lor
+        lorem lorem ipsum lor lorem lorem ipsum lor lorem
+      </div>
+      <div className="box">
+        lorem ipsum lor lorem lorem ipsum lor lorem lorem ipsum lor lorem lorem
+        ipsum lor lorem lorem ipsum lor lorem lorem ipsum lor lorem lorem ipsum
+        lor lorem lorem ipsum lor lorem lorem ipsum lor lorem lorem ipsum lor
+        lorem lorem ipsum lor lorem lorem ipsum lor lorem
+      </div>
+      <div className="box">
+        lorem ipsum lor lorem lorem ipsum lor lorem lorem ipsum lor lorem lorem
+        ipsum lor lorem lorem ipsum lor lorem lorem ipsum lor lorem lorem ipsum
+        lor lorem lorem ipsum lor lorem lorem ipsum lor lorem lorem ipsum lor
+        lorem lorem ipsum lor lorem lorem ipsum lor lorem
+      </div>
+      <div className="box">
+        lorem ipsum lor lorem lorem ipsum lor lorem lorem ipsum lor lorem lorem
+        ipsum lor lorem lorem ipsum lor lorem lorem ipsum lor lorem lorem ipsum
+        lor lorem lorem ipsum lor lorem lorem ipsum lor lorem lorem ipsum lor
+        lorem lorem ipsum lor lorem lorem ipsum lor lorem
+      </div>
     </div>
   );
 }
